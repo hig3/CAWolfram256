@@ -1,0 +1,75 @@
+<?php
+$domain="http://sparrow.math.ryukoku.ac.jp/~hig/mobilejava/examples/"  ;
+$app="CAWolfram256/";
+if( ereg("^DoCoMo",$HTTP_USER_AGENT) || $c=="im" ){
+  header("Location: " . $domain .  "i/" . $app  );
+} else if ( ereg("^J-PHONE",$HTTP_USER_AGENT) || $c=="vf" ){ 
+  header("Location: " . $domain . "j/" . $app  );
+} else if ( ereg("UP\.Browser",$HTTP_USER_AGENT)  || $c=="ez" ){
+  header("Location: " . $domain . "k/" . $app );
+} 
+?>
+<!-- iso-2022-jp or Shift_JIS or EUC-JP -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- strict or transitional or frameset -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=Shift_JIS" />
+    <meta http-equiv="content-style-type" content="text/css; charset=Shift_JIS" />
+    <link rel="stylesheet" href="/~hig/lecture.css" type="text/css" />
+    <title>ウォルフラムのセルオートマトン (iアプリ/Vアプリ/EZアプリ)</title>
+  </head>
+  <body bgcolor="#FFFFFF">
+  <body>
+[PC|<a href="../i/CAWolfram256/">i</a>|<a href="../j/CAWolfram256/">V</a>|<a href="../k/CAWolfram256/">EZ</a>]
+    <div class="navbar">
+      <a href="http://www.ryukoku.ac.jp/">龍谷大学</a>&gt;
+      <a href="http://rikou.st.ryukoku.ac.jp/">理工学部</a>&gt;
+      <a href="http://www.math.ryukoku.ac.jp/">数理情報学科</a>&gt;
+      <a href="http://sparrow.math.ryukoku.ac.jp/~hig/">樋口三郎</a>&gt;
+	<a href="/~hig/mobilejava/">携帯電話Java</a>&gt;
+	<a href="/~hig/mobilejava/examples/">数学/物理学習用iアプリ/Vアプリ/EZアプリ</a>&gt;
+	ウォルフラムのセルオートマトン
+</div>
+    <h1>ウォルフラムのセルオートマトン</h1>
+ウォルフラムの256種類の基本セルオートマトン
+<p><a href="../../download.html">対応機種とダウンロード方法</a></p>
+    <table border>
+	<tr>
+	  <th>アプリ名</th>
+	  <th colspan=2>スクリーンショット</th>
+	  <th>説明</th>
+	  <th>iアプリ</th>
+	  <th>Vアプリ</th>
+	  <th>EZアプリ</th>
+	</tr>
+<tr>
+  <th>ウォルフラムのセルオートマトン</th>
+  <td><img src="scrshot1.jpg"></td>
+  <td><img src="scrshot2.jpg"></td>
+  <td>Mathematica の作者でもある, S. Wolfram の定義した256種類の基本セルオートマトン http://www.stephenwolfram.com/publications/articles/ca/84-universality/ について, ルール番号を入力するとそれに応じたシミュレーションを実行します．描画の遅い端末の場合，セル幅を大きくとるか，待ち時間を調節するかしてください．基本セルオートマトンの解説として, http://obog.ome.meisei-u.ac.jp/~tuchiyaob/sell.html や吉永良正「複雑系」とは何か 等があります．ソースの大部分を共有するiアプリ/Vアプリ/EZアプリ版があります．龍谷大学理工学部数理情報学科の授業で使用しています．</td>
+  <td>
+<a href="mailto:your.address@docomo.ne.jp?subject=URL_iappli?body=http://sparrow.math.ryukoku.ac.jp/~hig/mobilejava/examples/i/CAWolfram256/">メールでURL送る</a>
+<a href="http://sparrow.math.ryukoku.ac.jp/~hig/mobilejava/examples/i/CAWolfram256/jam_url.html">JAMファイルのURL</a>
+</td>
+  <td><a href="mailto:your.address@k.vodafone.ne.jp?subject=URL_Vappli?body=http://appget.com/vf/menu/apview_022483.htm">メールでURL送る</a></td>
+  <td><a href="mailto:your.address@ezweb.ne.jp?subject=URL_EZappli?body=http://sparrow.math.ryukoku.ac.jp/~hig/mobilejava/examples/k/CAWolfram256/">メールでURL送る</a></td>
+</tr>
+</table>
+<a href="/~hig/mobilejava/examples/">樋口による他のアプリ</a>
+<a href="/~hig/mobilejava/examples/applilink.html">アプリリンク集</a>
+    <hr />
+    Copyright &copy; 2004 Saburo Higuchi. All rights reserved.
+    <address>
+      <a href="/~hig/">樋口三郎</a>
+      <a href="http://www.math.ryukoku.ac.jp/~hig/">http://www.math.ryukoku.ac.jp/~hig/</a>	
+<img src="/~hig/hig.png" alt="mail address" align="top">
+    </address>
+  </body>
+</html>
+<!-- 
+Local Variables:
+mode: xml
+time-stamp-line-limit: 50
+End:
+-->

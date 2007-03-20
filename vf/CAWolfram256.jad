@@ -1,0 +1,10 @@
+MIDlet-1: CAWolfram256, /icon.png, CAWolfram256
+MIDlet-Jar-Size: 5724
+MIDlet-Jar-URL: CAWolfram256.jar
+MIDlet-Name: CAWolfram256
+MIDlet-Vendor: hig
+MIDlet-Version: 1.0
+MicroEdition-Profile: MIDP-1.0
+MicroEdition-Configuration: CLDC-1.0
+MIDlet-Application-Range: 0,0
+MIDlet-OCL: JSCL-1.0.1
